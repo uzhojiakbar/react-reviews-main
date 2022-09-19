@@ -15,17 +15,17 @@
 
 ### Branch yaratish va unga otish
 #### `git branch BrenchName`  
-            BrenchName nomli branch ochiladi
+    BrenchName nomli branch ochiladi
 #### `git checkout BrenchName`
-            Men hozir ozim turgan branch dan `BrenchName` nomli branch ga otib olaman
+    Men hozir ozim turgan branch dan `BrenchName` nomli branch ga otib olaman
 
 ### git repository ochish va vs code ga ulash
     repository larga papka sifatida  qarasak boladi (.git fayllari),
     Har bir proect uchun 1 repository ochiladi,
     Buning uchun github.com ga otamiz va + iconcasi ustiga bosib repository nomini yozamiz va yaratamiz.
-`git init`
-    git init qiladigan bolsak bizga bita .git fayli yaratiladi
-    git remote add origin "github.com/username/exemle.git"
-    bu yerda origin sozini istalgan sozga ozgartirsak boladi. bunday holda push va pull da ham shu soz kiritladi, men hozirda origin ni kiritaman
-    "" - ichidagi manzilda repo manzili kiritiladi, guthubdan yaratgan repoga kirsak tepada kiritilgan boladi, yoki code ni ustiga bossak shu yerda turadi copy qilib kiritamiz
+### `git init`
+            git init qiladigan bolsak bizga bita .git fayli yaratiladi
+            git remote add origin "github.com/username/exemle.git"
+            bu yerda origin sozini istalgan sozga ozgartirsak boladi. bunday holda push va pull da      ham shu soz kiritladi, men hozirda origin ni kiritaman
+            "" - ichidagi manzilda repo manzili kiritiladi, guthubdan yaratgan repoga kirsak tepada         kiritilgan boladi, yoki code ni ustiga bossak shu yerda turadi copy qilib kiritamiz
 
