@@ -24,8 +24,19 @@
     Har bir proect uchun 1 repository ochiladi,
     Buning uchun github.com ga otamiz va + iconcasi ustiga bosib repository nomini yozamiz va yaratamiz.
 ### `git init`
-            git init qiladigan bolsak bizga bita .git fayli yaratiladi
-            git remote add origin "github.com/username/exemle.git"
-            bu yerda origin sozini istalgan sozga ozgartirsak boladi. bunday holda push va pull da      ham shu soz kiritladi, men hozirda origin ni kiritaman
-            "" - ichidagi manzilda repo manzili kiritiladi, guthubdan yaratgan repoga kirsak tepada         kiritilgan boladi, yoki code ni ustiga bossak shu yerda turadi copy qilib kiritamiz
+    git init qiladigan bolsak bizga bita .git fayli yaratiladi
+    git remote add origin "github.com/username/exemle.git"
+    bu yerda origin sozini istalgan sozga ozgartirsak boladi. bunday holda push     pull da      ham shu soz kiritladi, men hozirda origin ni kiritaman
+    "" - ichidagi manzilda repo manzili kiritiladi, guthubdan yaratgan repoga kirs  tepada         kiritilgan boladi, yoki code ni ustiga bossak shu yerda tura   copy qilib kiritamiz
 
+#### `git add`
+    `git add .`
+    git add - barcha fayllarni kuzatadi, agar tepadagi commandni kitiadigan bo'lsak oldingi pushdan keyin nima bolgan qanday ozgarish, nima yaratilgan va nima ozgarganini oqiydi, va uni xotiraga oladi
+    git add . - bu yerda (.) ni o`rniga faylnomi ham kritish mumkin, shunda faqat kiritilgan nomdagi xotiraga oladi
+#### `git commit -m "Your Description"`
+    Git commit nimani anglatadi? Git commit buyrug'i loyihaning hozirda bosqichma-bosqich o'zgarishlarining suratini oladi. Taqdim etilgan suratlarni loyihaning "xavfsiz" versiyalari deb hisoblash mumkin
+    -m "Your massage" - bu yerda siz qanday ozgarshlar bolganini qisqa va tushunarli qilib joatishingiz kere boaldi.
+
+#### Git push nima qiladi
+    `git push origin master`
+    git push -  
