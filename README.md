@@ -14,9 +14,9 @@
     shu yerga push qilaman, agarda masterga push  qilsam kotta proect buzilishi mumkin
 
 ### Branch yaratish va unga otish
-## `git branch BrenchName`  
+# `git branch BrenchName`  
             BrenchName nomli branch ochiladi
-### `git checkout BrenchName`
+# `git checkout BrenchName`
             Men hozir ozim turgan branch dan `BrenchName` nomli branch ga otib olaman
 
 ### git repository ochish va vs code ga ulash
