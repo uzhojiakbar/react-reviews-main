@@ -37,6 +37,14 @@
     Git commit nimani anglatadi? Git commit buyrug'i loyihaning hozirda bosqichma-bosqich o'zgarishlarining suratini oladi. Taqdim etilgan suratlarni loyihaning "xavfsiz" versiyalari deb hisoblash mumkin
     -m "Your massage" - bu yerda siz qanday ozgarshlar bolganini qisqa va tushunarli qilib joatishingiz kere boaldi.
 
-#### Git push nima qiladi
+#### `Git push nima qiladi`
     `git push origin master`
-    git push -  
+    git push -  git add qilgan malumotlarni github ga qoshadi, eski malumotlar yangilanib, git add qilgandegi malumotlar joylanadi
+    origin - bu yerda remote manzili
+    master - branch nomi
+
+### `Git pull origin master`
+    Git Pull - biror bir brachda hozirgi turgan branchingizga malumot olish
+    origin - remote nomi
+    master - branch nomi
+### git
