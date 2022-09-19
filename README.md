@@ -1,3 +1,4 @@
+# Git Hub ga kirish!
 ### Git nima?
     Git vaqt otishi bilan o'zgarishlarni yozib olishga imkon beradigan tizim
 
@@ -47,4 +48,4 @@
     Git Pull - biror bir brachda hozirgi turgan branchingizga malumot olish
     origin - remote nomi
     master - branch nomi
-### git
+
